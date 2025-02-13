@@ -19,6 +19,7 @@
     }
   ],
   "fileMap": {
+    "projectFileMap": {},
     "nonProjectFiles": [
       {
         "file": ".github/workflows/ci.yml",
@@ -26,7 +27,7 @@
       },
       {
         "file": ".gitignore",
-        "hash": "18318511172391054080"
+        "hash": "15361145451619280131"
       },
       {
         "file": ".prettierignore",
@@ -72,7 +73,6 @@
         "file": "tsconfig.json",
         "hash": "12122149092871080271"
       }
-    ],
-    "projectFileMap": {}
+    ]
   }
 }
