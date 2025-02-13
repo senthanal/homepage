@@ -5,4 +5,16 @@
 :root {
   --global-black: #000000;
   --global-white: #ffffff;
+  --global-green: #2e765e;
+  --global-blue: #526d82;
+  --global-yellow: #744210;
+  --global-red: #a3422c;
+  --global-beige-100: #e5d3c3;
+  --global-beige-500: #d8bfa9;
+  --global-beige-900: #a69781;
+  --global-beige-1000: rgba(216, 191, 169, 0.15);
+  --global-navy-100: #526d82;
+  --global-navy-500: #27374d;
+  --global-navy-900: #1b2533;
+  --global-navy-1000: rgba(39, 55, 77, 0.1);
 }
