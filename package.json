@@ -4,18 +4,46 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
   "devDependencies": {
+    "@actions/core": "^1.11.1",
+    "@eslint/js": "^9.8.0",
+    "@nx/esbuild": "20.4.3",
+    "@nx/eslint": "20.4.3",
+    "@nx/eslint-plugin": "20.4.3",
     "@nx/js": "20.4.3",
+    "@nx/web": "^20.4.3",
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
+    "@types/node": "18.16.9",
+    "esbuild": "^0.19.2",
+    "eslint": "^9.8.0",
+    "eslint-config-prettier": "^9.0.0",
     "nx": "20.4.3",
     "prettier": "^2.6.2",
+    "style-dictionary": "^4.3.3",
     "tslib": "^2.3.0",
-    "typescript": "~5.7.2"
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.19.0",
+    "verdaccio": "^5.0.4"
   },
   "workspaces": [
-    "packages/*"
-  ]
+    "packages/*",
+    "design-tokens",
+    "styles"
+  ],
+  "dependencies": {},
+  "nx": {
+    "includedScripts": [],
+    "targets": {
+      "local-registry": {
+        "executor": "@nx/js:verdaccio",
+        "options": {
+          "port": 4873,
+          "config": ".verdaccio/config.yml",
+          "storage": "tmp/local-registry/storage"
+        }
+      }
+    }
+  }
 }
