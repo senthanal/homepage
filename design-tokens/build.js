@@ -1,4 +1,5 @@
 import StyleDictionary from 'style-dictionary';
+import { logVerbosityLevels } from 'style-dictionary/enums';
 import { resolve } from 'node:path';
 import process from 'node:process';
 const tokensPath = resolve(process.cwd(), 'src');
@@ -14,6 +15,9 @@ async function build() {
 async function buildTokens() {
   core.info('Building tokens');
   const sd = new StyleDictionary({
+    log: {
+      verbosity: logVerbosityLevels.verbose,
+    },
     source: [`${tokensPath}/**/*.json`],
     platforms: {
       css: {
