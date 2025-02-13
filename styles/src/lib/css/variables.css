@@ -17,5 +17,5 @@
   --global-color-navy-500: #27374d;
   --global-color-navy-900: #1b2533;
   --global-color-navy-1000: rgba(39, 55, 77, 0.1);
-  --semantic-color-primary-default: #d8bfa9;
+  --semantic-color-primary-default: #d8bfa9; /* Primary default color */
 }
