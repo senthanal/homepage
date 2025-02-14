@@ -18,4 +18,11 @@
   --color-navy-900: #1b2533;
   --color-navy-1000: rgba(39, 55, 77, 0.1);
   --color-primary-default: #d8bfa9; /* Primary default color */
+  --color-primary-muted: rgba(216, 191, 169, 0.15); /* Muted primary for backgrounds */
+  --color-primary-light: #d8bfa9; /* Primary light color */
+  --color-primary-dark: #a69781; /* Primary dark color */
+  --color-secondary-default: #27374d; /* Secondary default color */
+  --color-secondary-muted: rgba(39, 55, 77, 0.1); /* Muted secondary for backgrounds */
+  --color-secondary-light: #526d82; /* Secondary light color */
+  --color-secondary-dark: #1b2533; /* Secondary dark color */
 }
