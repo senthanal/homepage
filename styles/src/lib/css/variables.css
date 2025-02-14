@@ -1,0 +1,66 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-green: #2e765e;
+  --color-blue: #526d82;
+  --color-yellow: #744210;
+  --color-red: #a3422c;
+  --color-beige-100: #e5d3c3;
+  --color-beige-500: #d8bfa9;
+  --color-beige-900: #a69781;
+  --color-beige-1000: rgba(216, 191, 169, 0.15);
+  --color-navy-100: #526d82;
+  --color-navy-500: #27374d;
+  --color-navy-900: #1b2533;
+  --color-navy-1000: rgba(39, 55, 77, 0.1);
+  --color-primary-default: #d8bfa9; /* Primary default color */
+  --color-primary-muted: rgba(216, 191, 169, 0.15); /* Muted primary for backgrounds */
+  --color-primary-light: #d8bfa9; /* Primary light color */
+  --color-primary-dark: #a69781; /* Primary dark color */
+  --color-secondary-default: #27374d; /* Secondary default color */
+  --color-secondary-muted: rgba(39, 55, 77, 0.1); /* Muted secondary for backgrounds */
+  --color-secondary-light: #526d82; /* Secondary light color */
+  --color-secondary-dark: #1b2533; /* Secondary dark color */
+  --dimension-scale: 2rem;
+  --dimension-xs: 4rem;
+  --dimension-sm: 8rem;
+  --dimension-md: 16rem;
+  --dimension-lg: 32rem;
+  --dimension-xl: 64rem;
+  --spacing-xs: 4rem;
+  --spacing-sm: 8rem;
+  --spacing-md: 16rem;
+  --spacing-lg: 32rem;
+  --spacing-xl: 64rem;
+  --spacing-multi-value: 8rem 64rem; /* You can have multiple values in a single spacing token. Read more on these: https://docs.tokens.studio/available-tokens/spacing-tokens#multi-value-spacing-tokens */
+  --border-radius-sm: 4px;
+  --border-radius-lg: 8px;
+  --border-radius-xl: 16px;
+  --border-radius-multi-value: 4px 8px; /* You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values */
+  --font-family-heading: Inter;
+  --font-family-body: Roboto;
+  --line-height-heading: 1.1;
+  --line-height-body: 1.4;
+  --letter-spacing-default: 0;
+  --letter-spacing-increased: 1.5em;
+  --letter-spacing-decreased: -0.05em;
+  --paragraph-spacing-h1: 32px;
+  --paragraph-spacing-h2: 26px;
+  --font-weight-heading-regular: 400;
+  --font-weight-heading-bold: 700;
+  --font-weight-body-regular: 400;
+  --font-weight-body-bold: 700;
+  --font-size-body: 16px;
+  --font-size-sm: 13.6px;
+  --font-size-xs: 10.4px;
+  --font-size-h6: 16px;
+  --font-size-h5: 20px;
+  --font-size-h4: 25px;
+  --font-size-h3: 31.25px;
+  --font-size-h2: 39.0625px;
+  --font-size-h1: 48.8281px;
+}
