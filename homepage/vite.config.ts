@@ -2,6 +2,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+  base: process.env.NODE_ENV === 'production' ? '/homepage/' : '/',
   root: __dirname,
   cacheDir: '../node_modules/.vite/homepage',
   server: {
