@@ -1,0 +1,12 @@
+{
+  "name": "homepage-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "projectType": "application",
+    "sourceRoot": "homepage-e2e/src",
+    "implicitDependencies": [
+      "@senthanal/homepage"
+    ]
+  }
+}

@@ -131,3 +131,7 @@ dist
 
 #Nx
 .nx/
+
+vite.config.*.timestamp*
+vitest.config.*.timestamp*
+test-output

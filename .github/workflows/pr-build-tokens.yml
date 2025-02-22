@@ -2,7 +2,7 @@ name: Pull request to build token lib and app artifacts
 on:
   pull_request:
     paths:
-        - 'design-tokens/**'
+      - 'design-tokens/**'
     branches:
       - '**'
 
@@ -18,8 +18,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.head_ref }}  # Checkout the PR branch
-          fetch-depth: 0  # Fetch all history
+          ref: ${{ github.head_ref }} # Checkout the PR branch
+          fetch-depth: 0 # Fetch all history
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Setup Node
         uses: actions/setup-node@v4
