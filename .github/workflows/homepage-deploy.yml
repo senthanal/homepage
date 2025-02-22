@@ -15,8 +15,8 @@ on:
       - main
 
 jobs:
-  # Setup job
-  setup:
+  # Build job
+  build:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -34,19 +34,14 @@ jobs:
 
     - run: npm ci
 
-  # Build job
-  build:
-    runs-on: ubuntu-latest
-    needs: setup
-    steps:
-      - name: Build
-        run: npx nx build @senthanal/homepage --prod
+    - name: Build
+      run: npx nx build @senthanal/homepage --prod
 
-      - name: Upload static files as artifact
-        id: deployment
-        uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
-        with:
-          path: homepage/dist/homepage
+    - name: Upload static files as artifact
+      id: deployment
+      uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
+      with:
+        path: homepage/dist/homepage
     
   # Deployment job
   deploy:
