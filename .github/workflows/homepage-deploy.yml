@@ -35,7 +35,7 @@ jobs:
     - run: npm ci
 
     - name: Build
-      run: npx nx build @senthanal/homepage --prod
+      run: npx nx build @senthanal/homepage --mode production
 
     - name: Upload static files as artifact
       id: deployment
