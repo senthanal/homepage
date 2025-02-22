@@ -4,13 +4,10 @@
   "files": [],
   "references": [
     {
+      "path": "./design-tokens"
+    },
+    {
       "path": "./styles"
-    },
-    {
-      "path": "./homepage-e2e"
-    },
-    {
-      "path": "./homepage"
     }
   ]
 }

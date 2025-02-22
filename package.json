@@ -7,43 +7,31 @@
   "devDependencies": {
     "@actions/core": "^1.11.1",
     "@eslint/js": "^9.8.0",
-    "@nx/devkit": "20.4.3",
     "@nx/esbuild": "20.4.3",
     "@nx/eslint": "20.4.3",
     "@nx/eslint-plugin": "20.4.3",
     "@nx/js": "20.4.3",
-    "@nx/playwright": "20.4.3",
-    "@nx/vite": "20.4.3",
     "@nx/web": "^20.4.3",
-    "@playwright/test": "^1.36.0",
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
     "@tokens-studio/sd-transforms": "^1.2.9",
     "@types/node": "18.16.9",
-    "@vitest/coverage-v8": "^1.0.4",
-    "@vitest/ui": "^1.3.1",
     "esbuild": "^0.19.2",
     "eslint": "^9.8.0",
     "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-playwright": "^1.6.2",
-    "jsdom": "~22.1.0",
     "nx": "20.4.3",
     "prettier": "^2.6.2",
     "style-dictionary": "^4.3.3",
-    "swc-loader": "0.1.15",
     "tslib": "^2.3.0",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.19.0",
-    "verdaccio": "^5.0.4",
-    "vite": "^5.0.0",
-    "vitest": "^1.3.1"
+    "verdaccio": "^5.0.4"
   },
   "workspaces": [
     "packages/*",
     "design-tokens",
-    "styles",
-    "homepage"
+    "styles"
   ],
   "nx": {
     "includedScripts": [],
@@ -57,6 +45,5 @@
         }
       }
     }
-  },
-  "dependencies": {}
+  }
 }
